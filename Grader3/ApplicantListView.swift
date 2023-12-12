@@ -30,27 +30,35 @@ struct ApplicantEditView: View {
         List {
             TextField("First Name", text: $vm.firstName)
             TextField("Last Name", text: $vm.lastName)
-            Button(action: {
-                save(vm)
-                dismiss()
-            }, label: {
-                Text("SAVE")
-            })
-            Button(role: .destructive, action: {
-                delete(vm)
-                dismiss()
-            }, label: {
-                Text("DELETE")
-            })
-        }
-        .buttonStyle(.bordered)
-        .onAppear{
-            vm = applicant
+            HStack{
+                Button(action: {
+                    save(vm)
+                    dismiss()
+                }, label: {
+                    Text("SAVE")
+                        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                })
+                .buttonStyle(.bordered)
+                
+                Button(role: .destructive, action: {
+                    delete(vm)
+                    dismiss()
+                }, label: {
+                    Text("DELETE")
+                        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                })
+                .buttonStyle(.bordered)
+            }
+            
+            }
+            
+            .onAppear{
+                vm = applicant
         }
     }
 }
 
-struct ContentView: View {
+struct ApplicantListView: View {
     @State private var applicants = Applicant.examples
     @State private var showSheet = false
     
@@ -76,10 +84,13 @@ struct ContentView: View {
                     NavigationLink {
                         ApplicantEditView(applicant: applicant, save: update, delete: delete)
                     } label: {
+                        
                         Text("\(applicant.lastName), \(applicant.firstName)")
+                        //                       .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                        
+                        
                     }
 
-                    
                 }
             }
             .navigationTitle("Applicants")
@@ -88,7 +99,7 @@ struct ContentView: View {
                 Button {
                     showSheet = true
                 } label: {
-                    Text("add")
+                    Text("ADD")
                 }
             }
             .sheet(isPresented: $showSheet, content: {
@@ -100,5 +111,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ApplicantListView()
 }
