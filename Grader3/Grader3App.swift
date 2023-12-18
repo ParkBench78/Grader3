@@ -11,7 +11,7 @@ import SwiftUI
 struct Grader3App: App {
     var body: some Scene {
         WindowGroup {
-            ApplicantListView()
+            MilkyWayCounterView()
         }
     }
 }

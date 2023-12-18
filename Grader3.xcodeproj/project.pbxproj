@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F54D75752B2FBF7600843BC0 /* MilkyWayCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D75742B2FBF7600843BC0 /* MilkyWayCounterView.swift */; };
 		F5EF01B62B26A32A00466224 /* Grader3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF01B52B26A32A00466224 /* Grader3App.swift */; };
 		F5EF01B82B26A32A00466224 /* ApplicantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF01B72B26A32A00466224 /* ApplicantListView.swift */; };
 		F5EF01BA2B26A32B00466224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EF01B92B26A32B00466224 /* Assets.xcassets */; };
 		F5EF01BE2B26A32B00466224 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EF01BD2B26A32B00466224 /* Preview Assets.xcassets */; };
 		F5EF01C62B27942F00466224 /* StylingBootCampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF01C52B27942F00466224 /* StylingBootCampView.swift */; };
+		F5EF01C92B27F9CA00466224 /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF01C82B27F9CA00466224 /* RockPaperScissors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F54D75742B2FBF7600843BC0 /* MilkyWayCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkyWayCounterView.swift; sourceTree = "<group>"; };
 		F5EF01B22B26A32A00466224 /* Grader3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grader3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EF01B52B26A32A00466224 /* Grader3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grader3App.swift; sourceTree = "<group>"; };
 		F5EF01B72B26A32A00466224 /* ApplicantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantListView.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		F5EF01BB2B26A32B00466224 /* Grader3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grader3.entitlements; sourceTree = "<group>"; };
 		F5EF01BD2B26A32B00466224 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5EF01C52B27942F00466224 /* StylingBootCampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylingBootCampView.swift; sourceTree = "<group>"; };
+		F5EF01C82B27F9CA00466224 /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		F5EF01B42B26A32A00466224 /* Grader3 */ = {
 			isa = PBXGroup;
 			children = (
+				F5EF01C72B27F98300466224 /* RockPaperScissors */,
 				F5EF01C42B27935700466224 /* StylingBootCamp */,
 				F5EF01B52B26A32A00466224 /* Grader3App.swift */,
 				F5EF01B72B26A32A00466224 /* ApplicantListView.swift */,
@@ -78,6 +83,15 @@
 				F5EF01C52B27942F00466224 /* StylingBootCampView.swift */,
 			);
 			path = StylingBootCamp;
+			sourceTree = "<group>";
+		};
+		F5EF01C72B27F98300466224 /* RockPaperScissors */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF01C82B27F9CA00466224 /* RockPaperScissors.swift */,
+				F54D75742B2FBF7600843BC0 /* MilkyWayCounterView.swift */,
+			);
+			path = RockPaperScissors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +166,8 @@
 			files = (
 				F5EF01B82B26A32A00466224 /* ApplicantListView.swift in Sources */,
 				F5EF01C62B27942F00466224 /* StylingBootCampView.swift in Sources */,
+				F5EF01C92B27F9CA00466224 /* RockPaperScissors.swift in Sources */,
+				F54D75752B2FBF7600843BC0 /* MilkyWayCounterView.swift in Sources */,
 				F5EF01B62B26A32A00466224 /* Grader3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

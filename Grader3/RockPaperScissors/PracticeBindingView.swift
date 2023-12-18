@@ -42,7 +42,6 @@ struct MilkyWayCounterView: View {
                 .ignoresSafeArea()
             VStack {
                 Text("\(count)")
-                    .minimumScaleFactor(0.2)
                     .offset(y: 60)
                     .font(.system(size: 200))
                     .foregroundStyle(.white)
