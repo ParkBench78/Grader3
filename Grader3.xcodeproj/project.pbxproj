@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F53AEBC82B3AA22100393FE8 /* ConversionFtoC .swift in Sources */ = {isa = PBXBuildFile; fileRef = F53AEBC72B3AA22100393FE8 /* ConversionFtoC .swift */; };
+		F53AEBCA2B3AAC5300393FE8 /* ConversionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53AEBC92B3AAC5300393FE8 /* ConversionTool.swift */; };
+		F53AEBCC2B3B2E2100393FE8 /* Lb2Kg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53AEBCB2B3B2E2100393FE8 /* Lb2Kg.swift */; };
+		F53AEBCF2B3F456900393FE8 /* Overlays1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53AEBCE2B3F456900393FE8 /* Overlays1.swift */; };
 		F54D75752B2FBF7600843BC0 /* MilkyWayCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D75742B2FBF7600843BC0 /* MilkyWayCounterView.swift */; };
 		F56E0FE72B32915D0072E82F /* GoldenGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56E0FE62B32915D0072E82F /* GoldenGateView.swift */; };
 		F56E0FEA2B33C91A0072E82F /* We$plitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56E0FE92B33C91A0072E82F /* We$plitView.swift */; };
+		F56E0FED2B33D86D0072E82F /* TextFieldPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56E0FEC2B33D86D0072E82F /* TextFieldPractice.swift */; };
 		F5EF01B62B26A32A00466224 /* Grader3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF01B52B26A32A00466224 /* Grader3App.swift */; };
 		F5EF01B82B26A32A00466224 /* ApplicantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF01B72B26A32A00466224 /* ApplicantListView.swift */; };
 		F5EF01BA2B26A32B00466224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EF01B92B26A32B00466224 /* Assets.xcassets */; };
@@ -19,9 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F53AEBC72B3AA22100393FE8 /* ConversionFtoC .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConversionFtoC .swift"; sourceTree = "<group>"; };
+		F53AEBC92B3AAC5300393FE8 /* ConversionTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionTool.swift; sourceTree = "<group>"; };
+		F53AEBCB2B3B2E2100393FE8 /* Lb2Kg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lb2Kg.swift; sourceTree = "<group>"; };
+		F53AEBCE2B3F456900393FE8 /* Overlays1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlays1.swift; sourceTree = "<group>"; };
 		F54D75742B2FBF7600843BC0 /* MilkyWayCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkyWayCounterView.swift; sourceTree = "<group>"; };
 		F56E0FE62B32915D0072E82F /* GoldenGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenGateView.swift; sourceTree = "<group>"; };
 		F56E0FE92B33C91A0072E82F /* We$plitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = We$plitView.swift; sourceTree = "<group>"; };
+		F56E0FEC2B33D86D0072E82F /* TextFieldPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPractice.swift; sourceTree = "<group>"; };
 		F5EF01B22B26A32A00466224 /* Grader3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grader3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EF01B52B26A32A00466224 /* Grader3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grader3App.swift; sourceTree = "<group>"; };
 		F5EF01B72B26A32A00466224 /* ApplicantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantListView.swift; sourceTree = "<group>"; };
@@ -43,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F53AEBCD2B3F454200393FE8 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				F53AEBCE2B3F456900393FE8 /* Overlays1.swift */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
 		F56E0FE52B3290C50072E82F /* BackgroundPix */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +75,17 @@
 				F56E0FE92B33C91A0072E82F /* We$plitView.swift */,
 			);
 			path = AccountingApp;
+			sourceTree = "<group>";
+		};
+		F56E0FEB2B33D8140072E82F /* TextFieldPractice */ = {
+			isa = PBXGroup;
+			children = (
+				F56E0FEC2B33D86D0072E82F /* TextFieldPractice.swift */,
+				F53AEBC72B3AA22100393FE8 /* ConversionFtoC .swift */,
+				F53AEBC92B3AAC5300393FE8 /* ConversionTool.swift */,
+				F53AEBCB2B3B2E2100393FE8 /* Lb2Kg.swift */,
+			);
+			path = TextFieldPractice;
 			sourceTree = "<group>";
 		};
 		F5EF01A92B26A32A00466224 = {
@@ -78,6 +107,8 @@
 		F5EF01B42B26A32A00466224 /* Grader3 */ = {
 			isa = PBXGroup;
 			children = (
+				F53AEBCD2B3F454200393FE8 /* Overlays */,
+				F56E0FEB2B33D8140072E82F /* TextFieldPractice */,
 				F56E0FE82B33C8B00072E82F /* AccountingApp */,
 				F56E0FE52B3290C50072E82F /* BackgroundPix */,
 				F5EF01C72B27F98300466224 /* RockPaperScissors */,
@@ -186,12 +217,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53AEBCF2B3F456900393FE8 /* Overlays1.swift in Sources */,
+				F53AEBCA2B3AAC5300393FE8 /* ConversionTool.swift in Sources */,
 				F56E0FEA2B33C91A0072E82F /* We$plitView.swift in Sources */,
+				F53AEBC82B3AA22100393FE8 /* ConversionFtoC .swift in Sources */,
 				F5EF01B82B26A32A00466224 /* ApplicantListView.swift in Sources */,
 				F5EF01C62B27942F00466224 /* StylingBootCampView.swift in Sources */,
 				F5EF01C92B27F9CA00466224 /* RockPaperScissors.swift in Sources */,
 				F54D75752B2FBF7600843BC0 /* MilkyWayCounterView.swift in Sources */,
 				F56E0FE72B32915D0072E82F /* GoldenGateView.swift in Sources */,
+				F56E0FED2B33D86D0072E82F /* TextFieldPractice.swift in Sources */,
+				F53AEBCC2B3B2E2100393FE8 /* Lb2Kg.swift in Sources */,
 				F5EF01B62B26A32A00466224 /* Grader3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
